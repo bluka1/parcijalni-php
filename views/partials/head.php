@@ -10,21 +10,11 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a href="/" class="navbar-brand"></a>
+        <a href="/" class="navbar-brand">Naslovnica</a>
         <div class="navbar-nav">
-          <a href="" class="nav-link"></a>
+          <a href="/zadaci" class="nav-link">Lista zadataka</a>
+          <a href="/zadaci-create" class="nav-link">Novi zadatak</a>
         </div>
       </div>
     </nav>
   </header>
-<div class="container mt-4">
-  <div class="jumbotron bg-secondary text-white p-4 mb-4 rounded">
-    <h1></h1>
-    <h2></h2>
-    <p></p>
-  </div>
-</div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-</body>
-</html>
