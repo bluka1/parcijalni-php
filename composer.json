@@ -1,0 +1,23 @@
+{
+    "name": "igorjauk/parcijalni-php",
+    "description": "ispit",
+    "autoload": {
+        "psr-4": {
+            "Igorjauk\\ParcijalniPhp\\": "src/",
+           "App\\Controllers\\": "app/controllers/",
+            "App\\Models\\": "app/models/",
+            "App\\Core\\": "app/core/"
+        },
+        "files": [
+    "app/core/functions.php"
+  ]
+    },
+    
+    "authors": [
+        {
+            "name": "ijauk",
+            "email": "igor.jauk@gmail.com"
+        }
+    ],
+    "require": {}
+}
