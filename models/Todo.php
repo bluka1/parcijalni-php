@@ -23,7 +23,7 @@ class Todo {
   }
 
   public function create(string $naslov, string $tijelo) {
-    $stmt = $this->db->prepare("INSERT INTO clanci (korisnikId, naslov, opis) VALUES (1, :naslov, :opis)");
+    $stmt = $this->db->prepare("INSERT INTO todos (naslov, opis) VALUES (:naslov, :opis)");
 
     $stmt->bindParam(':naslov', $naslov);
     $stmt->bindParam(':opis', $tijelo);

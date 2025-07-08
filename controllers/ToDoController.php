@@ -14,7 +14,7 @@ class ToDoController {
 
     $toDoModel->deleteById($id);
 
-    redirect('/todos');
+    redirect('/todo');
   }
 
   public function edit() {
@@ -51,7 +51,7 @@ class ToDoController {
 
     $toDoModel->create(htmlspecialchars($naslov), htmlspecialchars($tijelo));
 
-    redirect('/todos');
+    redirect('/todo');
   }
 
   public function storeEdited () {
@@ -64,6 +64,6 @@ class ToDoController {
 
     $articleModel->updateById($id, $naslov, $tijelo);
 
-    redirect('/todos');
+    redirect('/todo');
   }
 }
