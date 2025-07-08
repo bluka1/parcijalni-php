@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
@@ -27,4 +27,13 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> -->
+<?php require __DIR__ . '/partials/head.php';?>
+<div class="container mt-4">
+  <div class="jumbotron bg-secondary text-white p-4 mb-4 rounded">
+    <!-- <h1><?= $naslov ?></h1> -->
+    <h2>Dobrodošli na moju ToDo aplikaciju.</h2>
+    <p>Jednostavno pratite vaše zadatke!</p>
+  </div>
+</div>
+<?php require __DIR__ .  '/partials/foot.php'?>
